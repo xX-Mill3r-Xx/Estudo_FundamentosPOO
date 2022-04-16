@@ -15,5 +15,21 @@ namespace _002IniciandoContextoDeConteudo.SubscriptionContext
 
         public IList<Subscription> Subscriptions { get; set; }
         public bool IsPremium => Subscriptions.Any(x => !x.IsInactive);
+
+        public Student()
+        {
+            Subscriptions = new List<Subscription>();
+        }
+
+        public void CreateSubscription(Subscription subscription)
+        {
+            if (IsPremium)
+            {
+                AddNotification(new NotificationContext.Notifications("Premium", "This student is premium"));
+                return;
+            }
+
+            Subscriptions.Add(subscription);
+        }
     }
 }

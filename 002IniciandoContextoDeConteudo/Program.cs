@@ -1,6 +1,7 @@
 ﻿using _002IniciandoContextoDeConteudo.ContentContext;
 using _002IniciandoContextoDeConteudo.ContentContext.Enums;
 using _002IniciandoContextoDeConteudo.NotificationContext;
+using _002IniciandoContextoDeConteudo.SubscriptionContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -64,6 +65,11 @@ namespace _002IniciandoContextoDeConteudo
                     }
                 }
             }
+
+            var payPalSub = new PayPalSubscription();
+            var student = new Student();
+
+            student.CreateSubscription(payPalSub);
 
             Console.ReadLine();
         }
