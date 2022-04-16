@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001Intro", "Fundamentos_POO\001Intro.csproj", "{5C09007F-FFCE-4A73-9870-B62C1DB2ACA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001Intro", "Fundamentos_POO\001Intro.csproj", "{5C09007F-FFCE-4A73-9870-B62C1DB2ACA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002Objetos", "002Objetos\002Objetos.csproj", "{32D6AE17-054D-4134-B608-B65D318AE097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002Objetos", "002Objetos\002Objetos.csproj", "{32D6AE17-054D-4134-B608-B65D318AE097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003Encapsulamento", "003Encapsulamento\003Encapsulamento.csproj", "{027041EA-8EC1-4EE0-9610-7C24810FA3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003Encapsulamento", "003Encapsulamento\003Encapsulamento.csproj", "{027041EA-8EC1-4EE0-9610-7C24810FA3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004Abstracao", "004Abstracao\004Abstracao.csproj", "{0300548E-10A5-4DF6-A31A-003CE3E26B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005Polimorfismo", "005Polimorfismo\005Polimorfismo.csproj", "{6E6C9534-CFA1-400F-8210-C0ED3CA61C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006ModificadoresDeAcesso", "006ModificadoresDeAcesso\006ModificadoresDeAcesso.csproj", "{EB647DB0-2880-4DE8-B9AF-369F8FE32095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007TiposComplexos", "007TiposComplexos\007TiposComplexos.csproj", "{A21D7DBE-5867-4B48-8523-352C4D793D44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{027041EA-8EC1-4EE0-9610-7C24810FA3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027041EA-8EC1-4EE0-9610-7C24810FA3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027041EA-8EC1-4EE0-9610-7C24810FA3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0300548E-10A5-4DF6-A31A-003CE3E26B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0300548E-10A5-4DF6-A31A-003CE3E26B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0300548E-10A5-4DF6-A31A-003CE3E26B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0300548E-10A5-4DF6-A31A-003CE3E26B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6C9534-CFA1-400F-8210-C0ED3CA61C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C9534-CFA1-400F-8210-C0ED3CA61C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C9534-CFA1-400F-8210-C0ED3CA61C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C9534-CFA1-400F-8210-C0ED3CA61C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB647DB0-2880-4DE8-B9AF-369F8FE32095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB647DB0-2880-4DE8-B9AF-369F8FE32095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB647DB0-2880-4DE8-B9AF-369F8FE32095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB647DB0-2880-4DE8-B9AF-369F8FE32095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21D7DBE-5867-4B48-8523-352C4D793D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21D7DBE-5867-4B48-8523-352C4D793D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21D7DBE-5867-4B48-8523-352C4D793D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21D7DBE-5867-4B48-8523-352C4D793D44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
